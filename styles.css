@@ -400,7 +400,9 @@ a:hover {
   text-align: center;
   background-color: var(--light-gray);
 }
-
+.version-header img {
+  width: 10rem;
+}
 .price {
   font-size: 1.5rem;
   font-weight: 700;
@@ -410,6 +412,8 @@ a:hover {
 .version-features {
   padding: 20px;
   list-style: none;
+  text-align: left;
+  width: 100%;
 }
 
 .version-features li {
