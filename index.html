@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BINA Online Examination System</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="BINA: Nigeria's leading CBT exam preparation platform for Primary 6, JSS3, and SS3 students. Improve computer literacy and exam performance with interactive online practice tests for Common Entrance, JSCE, WAEC, and JAMB."
+    />
+    <meta
+      name="keywords"
+      content="CBT exam preparation, Nigerian students, computer literacy, Common Entrance, JSCE, WAEC, JAMB, online practice tests"
+    />
+    <link rel="canonical" href="https://www.bina.vercel.app" />
+    <!-- Open Graph for Social Sharing -->
+    <meta
+      property="og:title"
+      content="BINA Online Examination System - Exam Preparation & Digital Learning"
+    />
+    <meta
+      property="og:description"
+      content="Enhance exam performance and computer skills with BINA's comprehensive online exam simulation platform for Nigerian students."
+    />
+    <meta property="og:image" content="logo.png" />
+    <meta
+      property="og:url"
+      content="https://www.bina.vercel.app
+    "
+    />
+    <meta
+      name="description"
+      content="BINA: Nigeria's leading CBT exam preparation platform for Primary 6, JSS3, and SS3 students. Improve computer literacy and exam performance with interactive online practice tests."
+    />
+    <meta
+      name="keywords"
+      content="CBT exam preparation, Nigerian students, computer literacy, Common Entrance, JSCE, WAEC, JAMB, online practice tests"
+    />
+  </head>
+  <body>
+    <!-- Loading Animation -->
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="container">
+        <div class="logo">
+          <img loading="lazy" src="logo.png" alt="BINA Logo" class="logo-img" />
+        </div>
+        <div class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#versions">Exam Versions</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="fade-in">
+            Empowering Nigerian Students with Advanced CBT Exam Preparation
+          </h1>
+          <p class="fade-in delay-1">
+            BINA Online Examination System provides comprehensive test
+            preparation and assessment tools to help students excel in their
+            academic journey.
+          </p>
+          <div class="hero-buttons fade-in delay-2">
+            <a
+              href="https://bina-free.vercel.app"
+              target="_blank"
+              class="btn btn-primary"
+              >Get Free Trial</a
+            >
+            <a href="#paid-version" class="btn btn-secondary"
+              >Explore Paid Plans</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Why Choose BINA?</h2>
+        <div class="feature-grid">
+          <div class="feature-card fade-in">
+            <i class="fas fa-laptop"></i>
+            <h3>Comprehensive CBT Exam Simulation</h3>
+            <p>
+              Experience realistic computer-based test environments tailored for
+              Nigerian educational standards.
+            </p>
+          </div>
+          <div class="feature-card fade-in delay-1">
+            <i class="fas fa-bookmark"></i>
+            <h3>Study Anywhere, Anytime</h3>
+            <p>
+              No more heavy textbooks! Access thousands of questions on any
+              device. Turn waiting time into productive study sessions
+            </p>
+          </div>
+          <div class="feature-card fade-in delay-2">
+            <i class="fas fa-book"></i>
+            <h3>Curriculum-Aligned Content</h3>
+            <p>
+              Access thousands of exam questions in CBT format across multiple
+              subjects.
+            </p>
+          </div>
+          <div class="feature-card fade-in delay-3">
+            <i class="fas fa-microchip"></i>
+            <h3>Digital Skills Development</h3>
+            <p>
+              More than just exam prep – build essential computer literacy
+              skills crucial for academic and future professional success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Versions Section -->
+    <main id="versions" class="versions">
+      <div class="container">
+        <h2 class="section-title">Examination Versions</h2>
+        <div class="versions-wrapper">
+          <!-- Common Entrance Free Version -->
+          <div class="version-card free-version fade-in">
+            <div class="version-header">
+              <p class="price">Common Entrance</p>
+              <h3>Free Version</h3>
+            </div>
+            <ul class="version-features">
+              <li>Limited question bank</li>
+              <li>Low time limits on exams</li>
+              <li>Ad-supported experience</li>
+            </ul>
+            <a href="https://bina-free.vercel.app/" class="btn btn-version f"
+              >Free Trial</a
+            >
+          </div>
+
+          <!-- Common Entrance Paid Version -->
+          <div
+            id="paid-version"
+            class="version-card paid-version fade-in delay-1"
+          >
+            <div class="version-header">
+              <h3 class="price">Common Entrance</h3>
+              <h3>Paid Version</h3>
+            </div>
+            <ul class="version-features">
+              <li>Full Common Entrance curriculum based questions</li>
+              <li>Timed practice sessions</li>
+              <li>Detailed Step-by-Step Solutions for Exam Questions</li>
+              <li>Personalised Students Profile</li>
+              <li>Smart Hints Powered by Our AI, Havana</li>
+            </ul>
+            <a
+              href="#"
+              class="btn btn-version p"
+              onclick="openDownloadPopup('commonEntrancePaid')"
+              >Download App</a
+            >
+          </div>
+
+          <!-- JSS3 Exams Paid Version -->
+          <div class="version-card paid-version Jss fade-in delay-2">
+            <div class="version-header">
+              <h3>JSS3 Exams</h3>
+              <p>Paid Version</p>
+            </div>
+            <ul class="version-features">
+              <li>JSCE aligned content</li>
+              <li>Personalised Students Profile</li>
+              <li>Detailed Step-by-Step Solutions for Exam Questions</li>
+              <li>Smart Hints Powered by Our AI, Havana</li>
+              <li>Mock examination simulations</li>
+            </ul>
+            <a
+              href="#"
+              class="btn btn-versionj"
+              onclick="openDownloadPopup('jss3')"
+              >Download App</a
+            >
+          </div>
+
+          <!-- SS3 Exams Paid Version -->
+          <div class="version-card paid-version Sss fade-in delay-3">
+            <div class="version-header">
+              <h3>SS3 Exams</h3>
+              <p>Paid Version</p>
+            </div>
+            <ul class="version-features">
+              <li>WAEC/JAMB preparation</li>
+              <li>Advanced question bank</li>
+              <li>Tailored Questions Based on Your Personalized Stream</li>
+              <li>Real Exam Simulations</li>
+              <li>Personalised Students Profile</li>
+              <li>Smart Hints Powered by Our AI, Havana</li>
+              <li>Detailed Step-by-Step Solutions for Exam Questions</li>
+              <li>University readiness assessment</li>
+            </ul>
+            <a
+              href="#"
+              class="btn btn-versions"
+              onclick="openDownloadPopup('ss3')"
+              >Download App</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Download Verification Popup -->
+    <div id="downloadPopup" class="download-popup">
+      <div class="popup-content">
+        <div class="popup-exit" onclick="closeDownloadPopup()">
+          <i class="fas fa-times"></i>
+        </div>
+        <h2>Payment Verification</h2>
+        <p id="popupMessage">
+          Have you completed the payment for the personalized profile?
+        </p>
+        <div class="popup-buttons">
+          <button class="btn-continue" onclick="continueToPayment()">
+            No, I want to Pay
+          </button>
+          <button class="btn-download" onclick="proceedToDownload()">
+            Yes, Download APK
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info fade-in">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>binativit@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>+2348135900015</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Bida, Nigeria</p>
+            </div>
+          </div>
+          <form
+            target="_blank"
+            action="https://formsubmit.co/3fc03341d59f6c9d1eb3d0373e75265b"
+            method="POST"
+            class="contact-form fade-in delay-1"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Your Name"
+                name="name"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Your Message"
+                <textarea
+                placeholder="Your Message"
+                class="form-control"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primaryp rt">
+              Send Message
+            </button>
+            <div
+              id="form-notification"
+              class="notification"
+              style="display: none"
+            ></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" itemscope itemtype="http://schema.org/Organization">
+      <div class="container">
+        <p itemprop="name">© 2025 BINA Online Examination System</p>
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/profile.php?id=61574715808715"
+            class="social-link"
+            itemprop="sameAs"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://x.com/BinaTivit?t=f_00Fia60xZpOXgNKMjujw&s=09"
+            class="social-link"
+            itemprop="sameAs"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/binativit?igsh=MXA5NXk0MnVxeWxmag=="
+            class="social-link"
+            itemprop="sameAs"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://vm.tiktok.com/ZMByPCtU4/"
+            class="social-link"
+            itemprop="sameAs"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="download.js"></script>
+  </body>
+</html>
