@@ -762,3 +762,477 @@ a:hover {
 }
 
 /* Download */
+/* FAQ Section */
+.faq {
+  padding: 100px 0;
+  background-color: var(--light-gray);
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 30px;
+}
+
+.faq-item {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.faq-item:hover {
+  transform: translateY(-5px);
+}
+
+.faq-item h3 {
+  color: var(--text-dark);
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.faq-item h3::before {
+  content: "Q";
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.faq-item p {
+  color: var(--text-light);
+  padding-left: 30px;
+  position: relative;
+}
+
+.faq-item p::before {
+  content: "A";
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  color: #4caf50;
+}
+
+/* Schools Section */
+.schools {
+  padding: 100px 0;
+  background-color: var(--white);
+}
+
+.section-subtitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.schools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 30px;
+}
+
+.school-card {
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.school-card:hover {
+  transform: translateY(-10px);
+}
+
+.school-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.school-card p {
+  margin-bottom: 25px;
+  color: var(--text-light);
+}
+
+/* Blog Preview Section for Homepage */
+.blog-preview {
+  padding: 100px 0;
+  background-color: var(--light-gray);
+}
+
+.blog-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.blog-card {
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+}
+
+.blog-img {
+  height: 200px;
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+.blog-tag {
+  display: inline-block;
+  background-color: var(--light-gray);
+  color: var(--text-light);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.blog-title {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.blog-excerpt {
+  color: var(--text-light);
+  margin-bottom: 15px;
+}
+
+.blog-link {
+  color: var(--primary-color);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+
+.blog-link i {
+  margin-left: 5px;
+  transition: var(--transition);
+}
+
+.blog-link:hover i {
+  transform: translateX(5px);
+}
+
+/* Blog Page Specific Styles */
+.blog-hero {
+  background-color: var(--primary-color);
+  padding: 150px 0 80px;
+  text-align: center;
+  color: var(--white);
+}
+
+.blog-search {
+  max-width: 600px;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.blog-search input {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  font-family: "Poppins", sans-serif;
+}
+
+.blog-search button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--white);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.blog-search button:hover {
+  background-color: var(--primary-dark);
+}
+
+.blog-categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.blog-category {
+  padding: 8px 20px;
+  background-color: var(--light-gray);
+  border-radius: 20px;
+  color: var(--text-dark);
+  transition: var(--transition);
+}
+
+.blog-category:hover,
+.blog-category.active {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.featured-post {
+  margin-bottom: 50px;
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.featured-img {
+  height: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.featured-content {
+  padding: 40px;
+}
+
+.featured-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.post-meta span {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.post-meta i {
+  margin-right: 5px;
+  color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .featured-post {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-container,
+  .schools-grid,
+  .blog-preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-categories {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* Mobile Responsiveness Fixes for Blog Page */
+
+/* Fix grid layouts for mobile */
+@media (max-width: 768px) {
+  .blog-preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-post {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-img {
+    height: 200px;
+  }
+
+  .featured-content {
+    padding: 25px;
+  }
+
+  .featured-title {
+    font-size: 1.5rem;
+  }
+
+  .blog-card {
+    max-width: 100%;
+  }
+
+  /* Improve blog categories display */
+  .blog-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .blog-category {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+  }
+
+  /* Fix post meta information display */
+  .post-meta {
+    flex-wrap: wrap;
+  }
+
+  .post-meta span {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+  }
+
+  /* Adjust blog search for small screens */
+  .blog-search {
+    max-width: 90%;
+  }
+
+  .blog-search input {
+    padding: 12px 15px;
+  }
+
+  .blog-search button {
+    right: 5px;
+    top: 5px;
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Adjust newsletter section */
+  .newsletter form {
+    max-width: 90%;
+  }
+
+  /* Better padding for content sections */
+  .blog-content .container {
+    padding: 0 15px;
+  }
+
+  /* Reduce heading sizes */
+  .blog-hero h1 {
+    font-size: 2rem;
+  }
+
+  .blog-hero p {
+    font-size: 1rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 576px) {
+  .featured-title {
+    font-size: 1.3rem;
+  }
+
+  .featured-content {
+    padding: 20px;
+  }
+
+  .blog-hero {
+    padding: 120px 0 50px;
+  }
+
+  .blog-categories {
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+
+  .blog-category {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+
+  /* Fix grid for very small screens */
+  .blog-preview-grid {
+    gap: 20px;
+  }
+
+  /* Adjust featured image height */
+  .featured-img {
+    height: 150px;
+  }
+
+  .blog-img {
+    height: 150px;
+  }
+
+  /* Fix spacing between blog cards */
+  .blog-card {
+    margin-bottom: 20px;
+  }
+
+  /* Better button size on small screens */
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Fix pagination buttons */
+  .pagination .btn {
+    padding: 8px 15px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Fix Feature Grid and Versions Wrapper */
+@media (max-width: 992px) {
+  .feature-grid,
+  .versions-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Fix the grid layouts that were set to 500px minimum */
+@media (max-width: 992px) {
+  .feature-grid,
+  .versions-wrapper,
+  .schools-grid,
+  .faq-container,
+  .blog-preview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .version-card,
+  .feature-card,
+  .school-card,
+  .faq-item,
+  .blog-card {
+    max-width: 100%;
+  }
+}
