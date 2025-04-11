@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exam Tips & CBT Preparation Guide - BINA Blog</title>
-    <link rel="stylesheet" href="blog.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="blog.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -24,7 +24,7 @@
       name="keywords"
       content="Nigerian exam preparation, CBT tips, JAMB CBT practice, WAEC preparation tips, Common Entrance study guide, JSCE revision, computer-based testing Nigeria"
     />
-    <link rel="canonical" href="https://www.bina.vercel.app/blog.html" />
+    <link rel="canonical" href="https://www.bina.vercel.app/blog2.html" />
     <!-- Schema.org markup for Blog -->
     <script type="application/ld+json">
       {
@@ -40,9 +40,374 @@
             "url": "https://www.bina.vercel.app/logo.png"
           }
         },
-        "url": "https://www.bina.vercel.app/blog.html"
+        "url": "https://www.bina.vercel.app/blog2.html"
       }
     </script>
+    <style>
+      /* Additional styles for blog post */
+      .blog-post-content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .blog-post-header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .blog-post-image {
+        width: 100%;
+        height: 400px;
+        background-color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--white);
+        font-size: 4rem;
+        margin-bottom: 30px;
+        border-radius: 10px;
+      }
+
+      .blog-post-meta {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        color: var(--text-light);
+      }
+
+      .blog-post-meta span {
+        margin: 0 15px;
+        display: flex;
+        align-items: center;
+      }
+
+      .blog-post-meta i {
+        margin-right: 5px;
+        color: var(--primary-color);
+      }
+
+      .blog-post-content h2 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: var(--text-dark);
+        border-left: 5px solid var(--primary-color);
+        padding-left: 15px;
+      }
+
+      .blog-post-content p {
+        margin-bottom: 20px;
+        line-height: 1.8;
+      }
+
+      .blog-post-content ul,
+      .blog-post-content ol {
+        margin-bottom: 20px;
+        padding-left: 20px;
+      }
+
+      .blog-post-content li {
+        margin-bottom: 10px;
+        line-height: 1.8;
+      }
+
+      .blog-post-content blockquote {
+        background-color: var(--light-gray);
+        padding: 20px;
+        border-left: 5px solid var(--primary-color);
+        margin: 20px 0;
+        font-style: italic;
+      }
+
+      .blog-post-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 0;
+      }
+
+      .blog-post-tags {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .blog-post-tag {
+        background-color: var(--light-gray);
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        color: var(--text-light);
+      }
+
+      .blog-post-share {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .blog-post-share span {
+        font-weight: 600;
+      }
+
+      .share-link {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--white);
+        font-size: 1.2rem;
+        transition: var(--transition);
+      }
+
+      .facebook {
+        background-color: #3b5998;
+      }
+
+      .twitter {
+        background-color: #1da1f2;
+      }
+
+      .whatsapp {
+        background-color: #25d366;
+      }
+
+      .related-posts {
+        margin-top: 60px;
+      }
+
+      .related-posts h3 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .related-posts-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .related-posts-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .blog-post-image {
+          height: 250px;
+        }
+      }
+
+      .cta-box {
+        background-color: var(--light-gray);
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 40px 0;
+      }
+
+      .cta-box h3 {
+        margin-bottom: 15px;
+        color: var(--primary-color);
+      }
+
+      .cta-box .btn {
+        margin-top: 15px;
+      }
+
+      .table-of-contents {
+        background-color: var(--light-gray);
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+
+      .table-of-contents h3 {
+        margin-bottom: 15px;
+        color: var(--primary-color);
+      }
+
+      .table-of-contents ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .table-of-contents li {
+        margin-bottom: 10px;
+      }
+
+      .table-of-contents a {
+        color: var(--text-dark);
+        text-decoration: none;
+        transition: var(--transition);
+      }
+
+      .table-of-contents a:hover {
+        color: var(--primary-color);
+        padding-left: 5px;
+      }
+
+      .study-plan-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      .study-plan-table th,
+      .study-plan-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+
+      .study-plan-table th {
+        background-color: var(--primary-color);
+        color: white;
+      }
+
+      .study-plan-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      .study-plan-table tr:hover {
+        background-color: #e9e9e9;
+      }
+
+      .math-example {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+        font-family: "Courier New", monospace;
+      }
+
+      .math-example .problem {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .math-example .solution {
+        margin-top: 15px;
+      }
+
+      .math-example .solution-step {
+        margin-bottom: 5px;
+      }
+
+      .topic-box {
+        background-color: #f0f8ff;
+        border-left: 5px solid #4169e1;
+        padding: 15px;
+        margin: 20px 0;
+      }
+
+      .topic-box h4 {
+        color: #4169e1;
+        margin-bottom: 10px;
+      }
+
+      .highlight-box {
+        background-color: #fff8e1;
+        border-left: 5px solid #ffc107;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+      }
+
+      .highlight-box h4 {
+        color: #ff9800;
+        margin-bottom: 10px;
+      }
+
+      /* Blog view/list toggle */
+      .blog-list-view {
+        display: block;
+      }
+
+      .blog-post-view {
+        display: none;
+      }
+
+      .blog-post-view.active {
+        display: block;
+      }
+
+      .back-to-blogs {
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 30px;
+        color: var(--primary-color);
+        font-weight: 600;
+        cursor: pointer;
+        transition: var(--transition);
+      }
+
+      .back-to-blogs i {
+        margin-right: 8px;
+      }
+
+      .back-to-blogs:hover {
+        color: var(--primary-dark);
+        transform: translateX(-5px);
+      }
+
+      .vocabulary-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      .vocabulary-table th,
+      .vocabulary-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+
+      .vocabulary-table th {
+        background-color: var(--primary-color);
+        color: white;
+      }
+
+      .vocabulary-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      .vocabulary-table tr:hover {
+        background-color: #e9e9e9;
+      }
+
+      .example-box {
+        background-color: #f0f8ff;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 20px 0;
+        border-left: 5px solid #4169e1;
+      }
+
+      .example-box h4 {
+        color: #4169e1;
+        margin-bottom: 10px;
+      }
+
+      .memory-technique {
+        background-color: #f0fff0;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+        border-left: 5px solid #2e8b57;
+      }
+
+      .memory-technique h4 {
+        color: #2e8b57;
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
   <body>
     <!-- Loading Animation -->
@@ -106,7 +471,7 @@
           <a href="#" class="blog-category" data-category="Study Tips"
             >Study Tips</a
           >
-          <a href="#" class="blog-category" data-category="CBT Strategies"
+          <a href="#" class="blog-category" data-category="CBT Skills"
             >CBT Skills</a
           >
         </div>
@@ -121,28 +486,26 @@
           <!-- Featured Post -->
           <div class="featured-post">
             <div class="featured-img">
-              <i class="fas fa-laptop-code"></i>
+              <i class="fas fa-language"></i>
             </div>
             <div class="featured-content">
-              <span class="blog-tag">CBT Strategies</span>
+              <span class="blog-tag">JAMB</span>
               <h2 class="featured-title">
-                Mastering Computer-Based Testing: Essential Skills for Nigerian
-                Students
+                English Language: Conquering JAMB's Use of English Section
               </h2>
               <div class="post-meta">
-                <span><i class="far fa-calendar"></i> April 8, 2025</span>
+                <span><i class="far fa-calendar"></i> March 30, 2025</span>
                 <span><i class="far fa-user"></i> BINA Team</span>
                 <span><i class="far fa-folder"></i> Study Tips</span>
               </div>
               <p class="blog-excerpt">
-                As Nigerian examination bodies continue to embrace
-                computer-based testing, students must develop not only subject
-                knowledge but also digital literacy skills to excel. This
-                comprehensive guide covers essential CBT navigation techniques,
-                time management strategies, and practice methods to help you
-                succeed in your upcoming examinations.
+                The Use of English section in JAMB UTME is often the deciding
+                factor between average and excellent scores. This comprehensive
+                guide covers essential strategies for mastering vocabulary,
+                grammar, comprehension, and verbal reasoning to help you excel
+                in this critical section of the examination.
               </p>
-              <a href="#" class="btn btn-primary" data-post-id="cbt-mastery"
+              <a href="#" class="btn btn-primary" data-post-id="jamb-english"
                 >Read More</a
               >
             </div>
@@ -151,6 +514,104 @@
           <!-- Blog Grid -->
           <div class="blog-preview-grid">
             <!-- Blog Post 1 -->
+            <div class="blog-card">
+              <div class="blog-img">
+                <i class="fas fa-atom"></i>
+              </div>
+              <div class="blog-content">
+                <span class="blog-tag">JSCE</span>
+                <h3 class="blog-title">
+                  Simplified Science: Understanding Basic Science & Technology
+                  for JSCE
+                </h3>
+                <div class="post-meta">
+                  <span><i class="far fa-calendar"></i> March 25, 2025</span>
+                </div>
+                <p class="blog-excerpt">
+                  Demystify key scientific concepts and practical applications
+                  required for excellence in your Junior WAEC Basic Science
+                  examination with our comprehensive guide...
+                </p>
+                <a href="#" class="blog-link" data-post-id="jsce-science">
+                  Continue Reading <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="blog-card">
+              <div class="blog-img">
+                <i class="fas fa-brain"></i>
+              </div>
+              <div class="blog-content">
+                <span class="blog-tag">Study Tips</span>
+                <h3 class="blog-title">
+                  Memory Enhancement Techniques for Nigerian Students
+                </h3>
+                <div class="post-meta">
+                  <span><i class="far fa-calendar"></i> March 20, 2025</span>
+                </div>
+                <p class="blog-excerpt">
+                  Discover scientifically-proven memory techniques including
+                  spaced repetition, mind mapping, and association methods to
+                  retain more information for your exams...
+                </p>
+                <a href="#" class="blog-link" data-post-id="memory-techniques">
+                  Continue Reading <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="blog-card">
+              <div class="blog-img">
+                <i class="fas fa-mouse"></i>
+              </div>
+              <div class="blog-content">
+                <span class="blog-tag">CBT Skills</span>
+                <h3 class="blog-title">
+                  Overcoming Computer Anxiety: Building Confidence for CBT Exams
+                </h3>
+                <div class="post-meta">
+                  <span><i class="far fa-calendar"></i> March 15, 2025</span>
+                </div>
+                <p class="blog-excerpt">
+                  Practical exercises and mindset shifts to help students with
+                  limited computer experience gain confidence before their CBT
+                  examinations...
+                </p>
+                <a href="#" class="blog-link" data-post-id="computer-anxiety">
+                  Continue Reading <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Blog Post 4 -->
+            <div class="blog-card">
+              <div class="blog-img">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <div class="blog-content">
+                <span class="blog-tag">CBT Strategies</span>
+                <h3 class="blog-title">
+                  Mastering Computer-Based Testing: Essential Skills for
+                  Nigerian Students
+                </h3>
+                <div class="post-meta">
+                  <span><i class="far fa-calendar"></i> April 8, 2025</span>
+                </div>
+                <p class="blog-excerpt">
+                  As Nigerian examination bodies continue to embrace
+                  computer-based testing, students must develop not only subject
+                  knowledge but also digital literacy skills to excel...
+                </p>
+                <a href="#" class="blog-link" data-post-id="cbt-mastery">
+                  Continue Reading <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Blog Post 5 -->
             <div class="blog-card">
               <div class="blog-img">
                 <i class="fas fa-book"></i>
@@ -175,7 +636,7 @@
               </div>
             </div>
 
-            <!-- Blog Post 2 -->
+            <!-- Blog Post 6 -->
             <div class="blog-card">
               <div class="blog-img">
                 <i class="fas fa-calculator"></i>
@@ -199,103 +660,22 @@
                 </a>
               </div>
             </div>
+          </div>
 
-            <!-- Blog Post 3 -->
-            <div class="blog-card">
-              <div class="blog-img">
-                <i class="fas fa-language"></i>
-              </div>
-              <div class="blog-content">
-                <span class="blog-tag">JAMB</span>
-                <h3 class="blog-title">
-                  English Language: Conquering JAMB's Use of English Section
-                </h3>
-                <div class="post-meta">
-                  <span><i class="far fa-calendar"></i> March 30, 2025</span>
-                </div>
-                <p class="blog-excerpt">
-                  Improve your performance in the critical Use of English
-                  section with our comprehensive vocabulary, grammar, and
-                  comprehension enhancement techniques...
-                </p>
-                <a href="#" class="blog-link" data-post-id="jamb-english">
-                  Continue Reading <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-
-            <!-- Blog Post 4 -->
-            <div class="blog-card">
-              <div class="blog-img">
-                <i class="fas fa-atom"></i>
-              </div>
-              <div class="blog-content">
-                <span class="blog-tag">JSCE</span>
-                <h3 class="blog-title">
-                  Simplified Science: Understanding Basic Science & Technology
-                  for JSCE
-                </h3>
-                <div class="post-meta">
-                  <span><i class="far fa-calendar"></i> March 25, 2025</span>
-                </div>
-                <p class="blog-excerpt">
-                  Demystify key scientific concepts and practical applications
-                  required for excellence in your Junior WAEC Basic Science
-                  examination...
-                </p>
-                <a href="#" class="blog-link" data-post-id="jsce-science">
-                  Continue Reading <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-
-            <!-- Blog Post 5 -->
-            <div class="blog-card">
-              <div class="blog-img">
-                <i class="fas fa-brain"></i>
-              </div>
-              <div class="blog-content">
-                <span class="blog-tag">Study Tips</span>
-                <h3 class="blog-title">
-                  Memory Enhancement Techniques for Nigerian Students
-                </h3>
-                <div class="post-meta">
-                  <span><i class="far fa-calendar"></i> March 20, 2025</span>
-                </div>
-                <p class="blog-excerpt">
-                  Discover scientifically-proven memory techniques including
-                  spaced repetition, mind mapping, and association methods to
-                  retain more information...
-                </p>
-                <a href="#" class="blog-link" data-post-id="memory-techniques">
-                  Continue Reading <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-
-            <!-- Blog Post 6 -->
-            <div class="blog-card">
-              <div class="blog-img">
-                <i class="fas fa-mouse"></i>
-              </div>
-              <div class="blog-content">
-                <span class="blog-tag">CBT Skills</span>
-                <h3 class="blog-title">
-                  Overcoming Computer Anxiety: Building Confidence for CBT Exams
-                </h3>
-                <div class="post-meta">
-                  <span><i class="far fa-calendar"></i> March 15, 2025</span>
-                </div>
-                <p class="blog-excerpt">
-                  Practical exercises and mindset shifts to help students with
-                  limited computer experience gain confidence before their CBT
-                  examinations...
-                </p>
-                <a href="#" class="blog-link" data-post-id="computer-anxiety">
-                  Continue Reading <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
+          <!-- Pagination -->
+          <div
+            class="pagination"
+            style="display: flex; justify-content: center; margin-top: 50px"
+          >
+            <a
+              href="blog.html"
+              class="btn btn-secondary"
+              style="margin-right: 10px"
+              ><i class="fas fa-arrow-left"></i> Previous</a
+            >
+            <a href="#" class="btn btn-primary"
+              >Next <i class="fas fa-arrow-right"></i
+            ></a>
           </div>
         </div>
 
@@ -392,754 +772,6 @@
     <script>
       // Blog posts data
       const blogPosts = {
-        "cbt-mastery": {
-          title:
-            "Mastering Computer-Based Testing: Essential Skills for Nigerian Students",
-          category: "CBT Strategies",
-          date: "April 8, 2025",
-          topic: "Study Tips",
-          author: "BINA Team",
-          icon: "fa-laptop-code",
-          content: `
-            <div class="blog-post-header">
-              <span class="blog-tag">CBT Strategies</span>
-              <h1>Mastering Computer-Based Testing: Essential Skills for Nigerian Students</h1>
-              <div class="blog-post-meta">
-                <span><i class="far fa-calendar"></i> April 8, 2025</span>
-                <span><i class="far fa-user"></i> BINA Team</span>
-                <span><i class="far fa-folder"></i> Study Tips</span>
-                <span><i class="far fa-clock"></i> 12 min read</span>
-              </div>
-            </div>
-            
-            <div class="blog-post-image">
-              <i class="fas fa-laptop-code"></i>
-            </div>
-            
-            <div class="table-of-contents">
-              <h3>Table of Contents</h3>
-              <ul>
-                <li>Introduction to CBT in Nigerian Examinations</li>
-                <li>Essential Digital Literacy Skills</li>
-                <li>CBT Navigation Techniques</li>
-                <li>Time Management Strategies</li>
-                <li>Effective Practice Methods</li>
-                <li>Exam Day Preparation</li>
-                <li>Overcoming Common Challenges</li>
-                <li>Conclusion</li>
-              </ul>
-            </div>
-            
-            <p>As Nigerian examination bodies continue to embrace computer-based testing (CBT), students must develop not only subject knowledge but also digital literacy skills to excel. This comprehensive guide covers essential CBT navigation techniques, time management strategies, and practice methods to help you succeed in your upcoming examinations.</p>
-            
-            <h2 id="introduction">Introduction to CBT in Nigerian Examinations</h2>
-            <p>Computer-Based Testing has become the standard format for many major examinations in Nigeria, including JAMB UTME, WAEC, post-UTME screenings, and professional certification exams. This shift from paper-based to computer-based testing offers numerous advantages, including faster result processing, reduced examination malpractice, and improved assessment accuracy.</p>
-            
-            <p>However, this transition also presents challenges for students who may have limited exposure to computers or digital testing environments. Research shows that students with stronger digital literacy skills typically perform better on CBT examinations, regardless of their subject knowledge. This highlights the importance of developing specific CBT skills alongside traditional academic preparation.</p>
-            
-            <blockquote>
-              "Success in today's CBT examinations requires a combination of subject mastery and digital testing skills. Students who understand how to navigate the CBT environment efficiently have a significant advantage." - Dr. Adebayo Ogunlesi, Educational Technology Specialist
-            </blockquote>
-            
-            <h2 id="digital-literacy">Essential Digital Literacy Skills</h2>
-            <p>Before diving into specific CBT strategies, it's important to ensure you have the fundamental digital skills needed for computer-based examinations:</p>
-            
-            <ul>
-              <li><strong>Basic Computer Operation:</strong> Familiarity with keyboard and mouse usage, including clicking, scrolling, and typing.</li>
-              <li><strong>Screen Navigation:</strong> Understanding how to move between different sections of the test, scroll through questions, and use navigation buttons.</li>
-              <li><strong>Form Interaction:</strong> Knowledge of how to select radio buttons, checkboxes, and dropdown menus for multiple-choice questions.</li>
-              <li><strong>Digital Reading:</strong> Ability to read and comprehend text on a screen, which can be different from reading printed material.</li>
-              <li><strong>Basic Troubleshooting:</strong> Understanding what to do if you encounter technical issues during the exam.</li>
-            </ul>
-            
-            <p>If you're not confident in these areas, consider visiting a cyber café or computer center regularly to practice these skills. Many schools and libraries also offer basic computer literacy programs that can help build your confidence.</p>
-            
-            <h2 id="navigation">CBT Navigation Techniques</h2>
-            <p>Efficient navigation through a CBT examination can save valuable time and reduce anxiety. Here are key navigation techniques to master:</p>
-            
-            <ol>
-              <li><strong>Understand the Interface:</strong> Before your exam, familiarize yourself with the specific CBT interface you'll be using. JAMB, WAEC, and other examination bodies often provide practice platforms or screenshots of their interfaces.</li>
-              <li><strong>Question Navigation:</strong> Learn how to move between questions using the navigation panel or buttons. Most CBT systems allow you to:
-                <ul>
-                  <li>Move to the next or previous question</li>
-                  <li>Jump to a specific question number</li>
-                  <li>Mark questions for review</li>
-                  <li>See which questions you've answered or skipped</li>
-                </ul>
-              </li>
-              <li><strong>Review Function:</strong> Understand how to flag or mark questions for later review. This is crucial for time management, allowing you to skip difficult questions and return to them later.</li>
-              <li><strong>Calculator and Tools:</strong> Many CBT exams provide on-screen calculators or other tools. Practice using these digital tools before the exam, as they may function differently from physical calculators.</li>
-              <li><strong>Answer Selection:</strong> Be precise when selecting answers. In most CBT systems, you need to click directly on the radio button or checkbox, not just on the text of the answer.</li>
-            </ol>
-            
-            <div class="cta-box">
-              <h3>Practice Your CBT Skills with BINA</h3>
-              <p>BINA offers realistic CBT practice tests that simulate the exact interface of major Nigerian examinations.  Build your confidence and improve your navigation skills before the real exam.</p>
-              <a href="index.html#versions" class="btn btn-primary">Try BINA Practice Tests</a>
-            </div>
-            
-            <h2 id="time-management">Time Management Strategies</h2>
-            <p>Effective time management is critical in CBT examinations, where a countdown timer is often visible on screen. Here are strategies to optimize your time:</p>
-            
-            <ul>
-              <li><strong>Scan the Entire Test:</strong> At the beginning of the exam, take 2-3 minutes to scan through all questions to understand the structure and identify easy questions you can answer quickly.</li>
-              <li><strong>Answer Easy Questions First:</strong> Start with questions you can answer confidently and quickly. This builds momentum and ensures you secure points for questions you know.</li>
-              <li><strong>Use the Mark/Flag Feature:</strong> For difficult questions, use the system's mark or flag feature to revisit them later rather than spending too much time on them initially.</li>
-              <li><strong>Monitor Your Pace:</strong> Divide the total time by the number of questions to determine how much time you should spend per question on average. Keep track of your progress against this benchmark.</li>
-              <li><strong>Reserve Review Time:</strong> Save the last 10-15 minutes of the exam for reviewing marked questions and checking your answers.</li>
-            </ul>
-            
-            <p>For a typical 2-hour JAMB UTME examination with 180 questions, you should aim to spend no more than 40 seconds per question on average, leaving about 15 minutes for review.</p>
-            
-            <h2 id="practice-methods">Effective Practice Methods</h2>
-            <p>Regular practice is the most effective way to build CBT skills and confidence. Here are recommended practice methods:</p>
-            
-            <ol>
-              <li><strong>Use Official Practice Platforms:</strong> JAMB provides a CBT practice platform on its website. WAEC and other examination bodies also offer sample tests. These official platforms most accurately reflect the actual exam interface.</li>
-              <li><strong>Download CBT Apps:</strong> Several mobile applications simulate Nigerian CBT examinations. While these may not perfectly match the official interface, they help build familiarity with digital testing.</li>
-              <li><strong>Time Your Practice:</strong> Always practice under timed conditions to build speed and efficiency.</li>
-              <li><strong>Simulate Exam Conditions:</strong> Practice in an environment similar to the actual examination hall—quiet, with minimal distractions, and using a desktop computer if possible rather than a mobile device.</li>
-              <li><strong>Analyze Performance:</strong> After each practice test, review not just your answers but also your navigation patterns and time management. Identify areas where you can improve efficiency.</li>
-            </ol>
-            
-            <blockquote>
-              "I improved my JAMB score by 67 points simply by practicing with CBT simulations for three weeks before the exam. The difference wasn't in my knowledge, but in my comfort with the testing format." - Chioma N., JAMB Candidate 2024
-            </blockquote>
-            
-            <h2 id="exam-day">Exam Day Preparation</h2>
-            <p>Proper preparation for the day of your CBT examination can significantly impact your performance:</p>
-            
-            <ul>
-              <li><strong>Arrive Early:</strong> Reach the examination center at least one hour before the scheduled time to complete biometric verification and other procedures without rushing.</li>
-              <li><strong>Verify Your System:</strong> When assigned a computer, check that it's functioning properly before the exam begins. Report any issues to the supervisor immediately.</li>
-              <li><strong>Adjust Your Station:</strong> Position your chair and screen for comfortable viewing. If allowed, adjust the brightness and contrast settings to reduce eye strain.</li>
-              <li><strong>Read Instructions Carefully:</strong> Take time to read all on-screen instructions before starting the exam. Pay attention to specific navigation instructions, as these may vary between different examination bodies.</li>
-              <li><strong>Stay Calm:</strong> If you encounter technical issues during the exam, raise your hand and wait for assistance. Don't panic or attempt to fix problems yourself.</li>
-            </ul>
-            
-            <h2 id="common-challenges">Overcoming Common Challenges</h2>
-            <p>Many students face specific challenges with CBT examinations. Here are solutions to common problems:</p>
-            
-            <h3>Computer Anxiety</h3>
-            <p>Computer anxiety is a real phenomenon that can affect performance. To overcome it:</p>
-            <ul>
-              <li>Practice regularly on computers to build familiarity and confidence</li>
-              <li>Learn relaxation techniques such as deep breathing to manage anxiety during the exam</li>
-              <li>Focus on the content of the questions rather than the digital format</li>
-              <li>Remember that CBT systems are designed to be user-friendly, even for those with limited computer experience</li>
-            </ul>
-            
-            <h3>Screen Fatigue</h3>
-            <p>Reading on a screen for extended periods can cause eye strain and fatigue. To manage this:</p>
-            <ul>
-              <li>Practice the 20-20-20 rule during preparation: every 20 minutes, look at something 20 feet away for 20 seconds</li>
-              <li>If allowed, adjust the brightness of your screen to a comfortable level</li>
-              <li>Blink regularly to prevent dry eyes</li>
-              <li>Consider using reading glasses specifically designed for computer use if you normally wear corrective lenses</li>
-            </ul>
-            
-            <h3>Technical Issues</h3>
-            <p>While examination centers take precautions, technical issues can still occur. If you experience problems:</p>
-            <ul>
-              <li>Remain calm and immediately alert the supervisor</li>
-              <li>Document the issue and the question number where it occurred</li>
-              <li>If transferred to another computer, verify that all your previous answers have been saved</li>
-              <li>Request additional time if significant delays were caused by technical problems</li>
-            </ul>
-            
-            <h2 id="conclusion">Conclusion</h2>
-            <p>Mastering Computer-Based Testing requires a combination of digital literacy, strategic preparation, and regular practice. By developing these essential CBT skills alongside your subject knowledge, you'll be well-equipped to excel in Nigerian examinations.</p>
-            
-            <p>Remember that CBT is not just a different format but an opportunity to demonstrate your knowledge efficiently. With proper preparation and the right mindset, you can turn the digital testing environment into an advantage rather than a challenge.</p>
-            
-            <p>Start implementing these strategies today, and approach your next computer-based examination with confidence and competence.</p>
-            
-            <div class="blog-post-tags">
-              <span class="blog-post-tag">CBT Skills</span>
-              <span class="blog-post-tag">JAMB Preparation</span>
-              <span class="blog-post-tag">WAEC Tips</span>
-              <span class="blog-post-tag">Digital Literacy</span>
-              <span class="blog-post-tag">Exam Strategies</span>
-            </div>
-            
-           
-            
-            <!-- Related Posts -->
-            <div class="related-posts">
-              <h3>Related Articles</h3>
-              <div class="related-posts-grid">
-                <div class="blog-card">
-                  <div class="blog-img">
-                    <i class="fas fa-mouse"></i>
-                  </div>
-                  <div class="blog-content">
-                    <span class="blog-tag">CBT Skills</span>
-                    <h3 class="blog-title">Overcoming Computer Anxiety: Building Confidence for CBT Exams</h3>
-                    <a href="#" class="blog-link" data-post-id="computer-anxiety">Read Article <i class="fas fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                
-                <div class="blog-card">
-                  <div class="blog-img">
-                    <i class="fas fa-brain"></i>
-                  </div>
-                  <div class="blog-content">
-                    <span class="blog-tag">Study Tips</span>
-                    <h3 class="blog-title">Memory Enhancement Techniques for Nigerian Students</h3>
-                    <a href="#" class="blog-link" data-post-id="memory-techniques">Read Article <i class="fas fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                
-                <div class="blog-card">
-                  <div class="blog-img">
-                    <i class="fas fa-language"></i>
-                  </div>
-                  <div class="blog-content">
-                    <span class="blog-tag">JAMB</span>
-                    <h3 class="blog-title">English Language: Conquering JAMB's Use of English Section</h3>
-                    <a href="#" class="blog-link" data-post-id="jamb-english">Read Article <i class="fas fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          `,
-        },
-        "common-entrance": {
-          title:
-            "How to Prepare for Common Entrance Examinations: A 12-Week Study Plan",
-          category: "Common Entrance",
-          date: "April 5, 2025",
-          topic: "Study Tips",
-          author: "BINA Team",
-          icon: "fa-book",
-          content: `
-            <div class="blog-post-header">
-              <span class="blog-tag">Common Entrance</span>
-              <h1>How to Prepare for Common Entrance Examinations: A 12-Week Study Plan</h1>
-              <div class="blog-post-meta">
-                <span><i class="far fa-calendar"></i> April 5, 2025</span>
-                <span><i class="far fa-user"></i> BINA Team</span>
-                <span><i class="far fa-folder"></i> Study Tips</span>
-                <span><i class="far fa-clock"></i> 15 min read</span>
-              </div>
-            </div>
-            
-            <div class="blog-post-image">
-              <i class="fas fa-book"></i>
-            </div>
-            
-            <div class="table-of-contents">
-              <h3>Table of Contents</h3>
-              <ul>
-                <li>Introduction</li>
-                <li>Initial Assessment and Goal Setting</li>
-                <li>12-Week Study Plan Overview</li>
-                <li>Weeks 1-4: Building Foundations</li>
-                <li>Weeks 5-8: Deepening Understanding</li>
-                <li>Weeks 9-12: Mastery and Exam Readiness</li>
-                <li>Subject-Specific Strategies</li>
-                <li>Tips for Parents and Guardians</li>
-                <li>Exam Day Preparation</li>
-                <li>Conclusion</li>
-              </ul>
-            </div>
-            
-            <p>The National Common Entrance Examination is a significant milestone in a Nigerian child's educational journey, determining their transition from primary to secondary education. This comprehensive 12-week study plan is designed specifically for Primary 6 students preparing for this important examination, providing a structured approach to maximize learning and build confidence.</p>
-            
-            <h2 id="introduction">Introduction</h2>
-            <p>The Common Entrance Examination tests students' knowledge across multiple subjects, including Mathematics, English Language, Verbal Reasoning, Quantitative Reasoning, and General Knowledge (covering Social Studies, Basic Science, and Creative Arts). Success requires not only subject knowledge but also exam techniques, time management, and emotional readiness.</p>
-            
-            <p>This 12-week study plan is designed to be comprehensive yet flexible, allowing for customization based on individual strengths and weaknesses. By following this structured approach, students can systematically build their knowledge, practice exam techniques, and develop the confidence needed to excel.</p>
-            
-            <blockquote>
-              "Preparation for Common Entrance should be a journey, not a sprint. A well-structured study plan over several months yields better results than intensive cramming in the final weeks." - Mrs. Folashade Akinola, Primary Education Specialist
-            </blockquote>
-            
-            <h2 id="assessment">Initial Assessment and Goal Setting</h2>
-            <p>Before beginning the 12-week plan, it's important to conduct an initial assessment to identify strengths and areas for improvement:</p>
-            
-            <ol>
-              <li><strong>Diagnostic Tests:</strong> Take practice tests in each subject area to establish baseline performance.</li>
-              <li><strong>Subject Analysis:</strong> Identify specific topics within each subject that need more attention.</li>
-              <li><strong>Learning Style Assessment:</strong> Determine whether your child learns best through visual, auditory, or kinesthetic methods.</li>
-              <li><strong>Goal Setting:</strong> Establish realistic target scores for each subject based on the requirements of preferred secondary schools.</li>
-            </ol>
-            
-            <p>This initial assessment will help customize the study plan to address specific needs and track progress throughout the preparation period.</p>
-            
-            <h2 id="plan-overview">12-Week Study Plan Overview</h2>
-            <p>This study plan divides preparation into three phases, each building upon the previous one:</p>
-            
-            <ul>
-              <li><strong>Weeks 1-4: Building Foundations</strong> - Focus on core concepts and addressing knowledge gaps</li>
-              <li><strong>Weeks 5-8: Deepening Understanding</strong> - Expand knowledge and develop application skills</li>
-              <li><strong>Weeks 9-12: Mastery and Exam Readiness</strong> - Practice exam techniques and build confidence</li>
-            </ul>
-            
-            <p>Each week includes specific goals, recommended study activities, and practice exercises. The plan allocates time for all subjects while emphasizing areas identified in the initial assessment as needing more attention.</p>
-            
-            <div class="cta-box">
-              <h3>Get Personalized Common Entrance Preparation</h3>
-              <p>BINA offers customized Common Entrance practice tests and personalized feedback to help your child excel. Try our Common Entrance preparation module today!</p>
-              <a href="index.html#versions" class="btn btn-primary">Explore BINA Common Entrance</a>
-            </div>
-            
-            <h2 id="weeks1-4">Weeks 1-4: Building Foundations</h2>
-            <p>The first phase focuses on establishing strong foundations in all subject areas and addressing any knowledge gaps identified in the initial assessment.</p>
-            
-            <h3>Week 1: Core Mathematics Concepts</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Number bases, fractions, decimals, and percentages</li>
-              <li><strong>Daily Activities:</strong> 30 minutes of concept review followed by 30 minutes of practice problems</li>
-              <li><strong>Weekend Activity:</strong> Complete a mini-assessment covering the week's topics</li>
-            </ul>
-            
-            <h3>Week 2: English Language Fundamentals</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Grammar rules, parts of speech, comprehension techniques</li>
-              <li><strong>Daily Activities:</strong> 20 minutes of grammar exercises, 20 minutes of vocabulary building, 20 minutes of reading comprehension</li>
-              <li><strong>Weekend Activity:</strong> Write a short essay and review with a parent or teacher</li>
-            </ul>
-            
-            <h3>Week 3: Reasoning Skills Development</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Verbal reasoning patterns, quantitative reasoning techniques</li>
-              <li><strong>Daily Activities:</strong> 30 minutes of verbal reasoning exercises, 30 minutes of quantitative reasoning problems</li>
-              <li><strong>Weekend Activity:</strong> Timed mini-tests for both verbal and quantitative reasoning</li>
-            </ul>
-            
-            <h3>Week 4: General Knowledge Foundation</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Basic Science concepts, Nigerian history and geography, current affairs</li>
-              <li><strong>Daily Activities:</strong> 20 minutes each for Science, Social Studies, and current affairs review</li>
-              <li><strong>Weekend Activity:</strong> Create mind maps for key topics and complete a general knowledge quiz</li>
-            </ul>
-            
-            <h2 id="weeks5-8">Weeks 5-8: Deepening Understanding</h2>
-            <p>The second phase builds upon the foundations established in the first four weeks, focusing on deeper understanding and application of concepts.</p>
-            
-            <h3>Week 5: Advanced Mathematics</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Geometry, measurements, word problems</li>
-              <li><strong>Daily Activities:</strong> 30 minutes of concept review, 30 minutes of application problems</li>
-              <li><strong>Weekend Activity:</strong> Complete a full-length Mathematics practice test</li>
-            </ul>
-            
-            <h3>Week 6: English Language Mastery</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Advanced comprehension, essay writing, vocabulary expansion</li>
-              <li><strong>Daily Activities:</strong> 20 minutes of reading comprehension, 20 minutes of writing practice, 20 minutes of vocabulary exercises</li>
-              <li><strong>Weekend Activity:</strong> Complete a full-length English Language practice test</li>
-            </ul>
-            
-            <h3>Week 7: Reasoning Skills Enhancement</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Complex reasoning patterns, speed and accuracy</li>
-              <li><strong>Daily Activities:</strong> 30 minutes of advanced verbal reasoning, 30 minutes of complex quantitative reasoning</li>
-              <li><strong>Weekend Activity:</strong> Timed full-length reasoning tests</li>
-            </ul>
-            
-            <h3>Week 8: Comprehensive General Knowledge</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Integrated Science topics, detailed Nigerian studies, global awareness</li>
-              <li><strong>Daily Activities:</strong> 20 minutes each for advanced Science, Social Studies, and current affairs</li>
-              <li><strong>Weekend Activity:</strong> Complete a full-length General Knowledge practice test</li>
-            </ul>
-            
-            <h2 id="weeks9-12">Weeks 9-12: Mastery and Exam Readiness</h2>
-            <p>The final phase focuses on exam techniques, time management, and building confidence through extensive practice.</p>
-            
-            <h3>Week 9: Integrated Practice I</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Combined subject practice, identifying remaining weak areas</li>
-              <li><strong>Daily Activities:</strong> 60 minutes of mixed subject practice tests</li>
-              <li><strong>Weekend Activity:</strong> Full-length mock exam covering all subjects</li>
-            </ul>
-            
-            <h3>Week 10: Targeted Improvement</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Intensive work on areas identified as still weak from Week 9's mock exam</li>
-              <li><strong>Daily Activities:</strong> 60 minutes of focused practice on specific weak areas</li>
-              <li><strong>Weekend Activity:</strong> Repeat mock exam and compare results with Week 9</li>
-            </ul>
-            
-            <h3>Week 11: Exam Techniques</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Time management, question analysis, strategic answering</li>
-              <li><strong>Daily Activities:</strong> 60 minutes of timed section practice with emphasis on technique</li>
-              <li><strong>Weekend Activity:</strong> Full-length timed mock exam under exam conditions</li>
-            </ul>
-            
-            <h3>Week 12: Final Preparation</h3>
-            <ul>
-              <li><strong>Focus Areas:</strong> Confidence building, light review, mental preparation</li>
-              <li><strong>Daily Activities:</strong> 45 minutes of light review across all subjects</li>
-              <li><strong>Weekend Activity:</strong> Rest, relaxation, and positive visualization of exam success</li>
-            </ul>
-            
-            <p>Below is a sample weekly schedule that can be adapted throughout the 12-week plan:</p>
-            
-            <table class="study-plan-table">
-              <tr>
-                <th>Day</th>
-                <th>Morning (30 min)</th>
-                <th>Afternoon (30 min)</th>
-                <th>Evening (30 min)</th>
-              </tr>
-              <tr>
-                <td>Monday</td>
-                <td>Mathematics</td>
-                <td>English Language</td>
-                <td>Verbal Reasoning</td>
-              </tr>
-              <tr>
-                <td>Tuesday</td>
-                <td>Quantitative Reasoning</td>
-                <td>Basic Science</td>
-                <td>Mathematics</td>
-              </tr>
-              <tr>
-                <td>Wednesday</td>
-                <td>English Language</td>
-                <td>Social Studies</td>
-                <td>Verbal Reasoning</td>
-              </tr>
-              <tr>
-                <td>Thursday</td>
-                <td>Mathematics</td>
-                <td>Quantitative Reasoning</td>
-                <td>Basic Science</td>
-              </tr>
-              <tr>
-                <td>Friday</td>
-                <td>English Language</td>
-                <td>Social Studies</td>
-                <td>Current Affairs</td>
-              </tr>
-              <tr>
-                <td>Saturday</td>
-                <td colspan="3">Practice Tests / Mock Exams (1-2 hours)</td>
-              </tr>
-              <tr>
-                <td>Sunday</td>
-                <td colspan="3">Review of weak areas identified in Saturday's practice (1 hour)</td>
-              </tr>
-            </table>
-            
-            <h2 id="subject-strategies">Subject-Specific Strategies</h2>
-            <p>Each subject in the Common Entrance Examination requires specific approaches for effective preparation:</p>
-            
-            <h3>Mathematics</h3>
-            <ul>
-              <li>Focus on understanding concepts rather than memorizing procedures</li>
-              <li>Practice with a variety of question types, especially word problems</li>
-              <li>Master multiplication tables and basic calculations for speed</li>
-              <li>Learn to check answers by working backward or estimating</li>
-            </ul>
-            
-            <h3>English Language</h3>
-            <ul>
-              <li>Read widely across different genres to improve comprehension</li>
-              <li>Practice identifying main ideas and supporting details in passages</li>
-              <li>Learn common spelling patterns and exceptions</li>
-              <li>Master the basic essay structure: introduction, body, conclusion</li>
-            </ul>
-            
-            <h3>Verbal Reasoning</h3>
-            <ul>
-              <li>Learn to identify common patterns in word relationships</li>
-              <li>Practice with analogies, classifications, and logical sequences</li>
-              <li>Build vocabulary through word games and daily reading</li>
-              <li>Develop techniques for eliminating incorrect options quickly</li>
-            </ul>
-            
-            <h3>Quantitative Reasoning</h3>
-            <ul>
-              <li>Focus on recognizing patterns in number sequences</li>
-              <li>Practice with different types of mathematical puzzles</li>
-              <li>Develop mental calculation skills for speed</li>
-              <li>Learn to translate word problems into mathematical operations</li>
-            </ul>
-            
-            <h3>General Knowledge</h3>
-            <ul>
-              <li>Create summary notes for key topics in Basic Science</li>
-              <li>Use maps and timelines to organize Nigerian history and geography</li>
-              <li>Stay updated on current affairs through child-friendly news sources</li>
-              <li>Use mnemonics and visual aids to remember facts</li>
-            </ul>
-            
-            <blockquote>
-              "The difference between average and excellent Common Entrance results often comes down to consistent practice with high-quality materials that match the actual exam format." - Mr. Emmanuel Okonkwo, Common Entrance Preparation Specialist
-            </blockquote>
-            
-            <h2 id="parent-tips">Tips for Parents and Guardians</h2>
-            <p>Parents and guardians play a crucial role in supporting children through Common Entrance preparation:</p>
-            
-            <ol>
-              <li><strong>Create a Conducive Study Environment:</strong> Ensure your child has a quiet, well-lit, and comfortable space for studying.</li>
-              <li><strong>Maintain a Balanced Schedule:</strong> Allow time for play, physical activity, and relaxation alongside study periods.</li>
-              <li><strong>Provide Nutritious Meals:</strong> Ensure your child eats balanced meals that support brain function and energy levels.</li>
-              <li><strong>Monitor Progress Without Pressure:</strong> Track improvement while maintaining a positive, encouraging attitude.</li>
-              <li><strong>Communicate with Teachers:</strong> Stay in touch with your child's teachers for additional insights and support.</li>
-              <li><strong>Celebrate Small Wins:</strong> Acknowledge and celebrate improvements to maintain motivation.</li>
-              <li><strong>Manage Anxiety:</strong> Teach simple relaxation techniques and maintain a calm atmosphere at home.</li>
-            </ol>
-            
-            <h2 id="exam-day">Exam Day Preparation</h2>
-            <p>Proper preparation for the examination day itself is essential for optimal performance:</p>
-            
-            <ul>
-              <li><strong>The Night Before:</strong>
-                <ul>
-                  <li>Ensure all required materials (pencils, erasers, etc.) are packed</li>
-                  <li>Go to bed early to ensure adequate rest</li>
-                  <li>Avoid introducing new study material</li>
-                </ul>
-              </li>
-              <li><strong>Morning of the Exam:</strong>
-                <ul>
-                  <li>Wake up early to avoid rushing</li>
-                  <li>Eat a nutritious breakfast</li>
-                  <li>Arrive at the examination center at least 30 minutes early</li>
-                </ul>
-              </li>
-              <li><strong>During the Exam:</strong>
-                <ul>
-                  <li>Read instructions carefully before starting</li>
-                  <li>Manage time by not spending too long on any single question</li>
-                  <li>If stuck on a question, move on and return to it later if time permits</li>
-                  <li>Double-check answers if time allows</li>
-                </ul>
-              </li>
-            </ul>
-            
-            <h2 id="conclusion">Conclusion</h2>
-            <p>The Common Entrance Examination is an important milestone, but with proper preparation, it can be approached with confidence rather than anxiety. This 12-week study plan provides a structured approach that builds knowledge systematically while developing essential exam techniques.</p>
-            
-            <p>Remember that the goal of preparation is not just to pass the examination but to build a strong educational foundation that will serve your child throughout their academic journey. By focusing on understanding concepts rather than mere memorization, you help develop critical thinking skills that extend far beyond the examination itself.</p>
-            
-            <p>Start this preparation journey with a positive mindset, consistent effort, and the belief that with proper guidance and practice, your child can achieve excellent results in their Common Entrance Examination.</p>
-            
-            <div class="blog-post-tags">
-              <span class="blog-post-tag">Common Entrance</span>
-              <span class="blog-post-tag">Study Plan</span>
-              <span class="blog-post-tag">Primary Education</span>
-              <span class="blog-post-tag">Exam Preparation</span>
-              <span class="blog-post-tag">Nigerian Education</span>
-            </div>
-            
-      
-            
-            <!-- Related Posts -->
-            <div class="related-posts">
-              <h3>Related Articles</h3>
-              <div class="related-posts-grid">
-                <div class="blog-card">
-                  <div class="blog-img">
-                    <i class="fas fa-brain"></i>
-                  </div>
-                  <div class="blog-content">
-                    <span class="blog-tag">Study Tips</span>
-                    <h3 class="blog-title">Memory Enhancement Techniques for Nigerian Students</h3>
-                    <a href="#" class="blog-link" data-post-id="memory-techniques">Read Article <i class="fas fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                
-                <div class="blog-card">
-                  <div class="blog-img">
-                    <i class="fas fa-laptop-code"></i>
-                  </div>
-                  <div class="blog-content">
-                    <span class="blog-tag">CBT Strategies</span>
-                    <h3 class="blog-title">Mastering Computer-Based Testing: Essential Skills for Nigerian Students</h3>
-                    <a href="#" class="blog-link" data-post-id="cbt-mastery">Read Article <i class="fas fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                
-                <div class="blog-card">
-                  <div class="blog-img">
-                    <i class="fas fa-atom"></i>
-                  </div>
-                  <div class="blog-content">
-                    <span class="blog-tag">JSCE</span>
-                    <h3 class="blog-title">Simplified Science: Understanding Basic Science & Technology for JSCE</h3>
-                    <a href="#" class="blog-link" data-post-id="jsce-science">Read Article <i class="fas fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          `,
-        },
-        "waec-mathematics": {
-          title:
-            "Mathematics Tips: Solving WAEC Quantitative Problems Efficiently",
-          category: "WAEC",
-          date: "April 2, 2025",
-          topic: "Study Tips",
-          author: "BINA Team",
-          icon: "fa-calculator",
-          content: `
-            <div class="blog-post-header">
-              <span class="blog-tag">WAEC</span>
-              <h1>Mathematics Tips: Solving WAEC Quantitative Problems Efficiently</h1>
-              <div class="blog-post-meta">
-                <span><i class="far fa-calendar"></i> April 2, 2025</span>
-                <span><i class="far fa-user"></i> BINA Team</span>
-                <span><i class="far fa-folder"></i> Study Tips</span>
-                <span><i class="far fa-clock"></i> 14 min read</span>
-              </div>
-            </div>
-            
-            <div class="blog-post-image">
-              <i class="fas fa-calculator"></i>
-            </div>
-            
-            <div class="table-of-contents">
-              <h3>Table of Contents</h3>
-              <ul>
-                <li>Introduction</li>
-                <li>Understanding the WAEC Mathematics Format</li>
-                <li>Key Topics and Their Weightage</li>
-                                <li>Problem-Solving Strategies</li>
-                <li>Common Mistakes to Avoid</li>
-                <li>Topic-Specific Strategies
-                  <ul>
-                    <li>Algebra</li>
-                    <li>Geometry and Trigonometry</li>
-                    <li>Statistics and Probability</li>
-                    <li>Calculus</li>
-                  </ul>
-                </li>
-                <li>Time Management Techniques</li>
-                <li>Structured Practice Approach</li>
-                <li>Exam Day Strategies</li>
-                <li>Conclusion</li>
-              </ul>
-            </div>
-            
-            <p>Mathematics often presents a significant challenge for many WAEC candidates, yet it remains one of the most critical subjects for future academic and career opportunities. This comprehensive guide provides proven strategies to help you tackle WAEC quantitative problems efficiently, build mathematical confidence, and maximize your score in the examination.</p>
-            
-            <h2 id="introduction">Introduction</h2>
-            <p>The West African Examinations Council (WAEC) Mathematics examination tests not only your knowledge of mathematical concepts but also your ability to apply these concepts to solve problems efficiently. Success in this examination requires a combination of conceptual understanding, problem-solving skills, and effective exam techniques.</p>
-            
-            <p>According to WAEC statistics, while Mathematics has one of the highest enrollment rates among all subjects, it also has one of the lower pass rates. This guide aims to bridge that gap by providing practical strategies that have helped thousands of students improve their performance in WAEC Mathematics.</p>
-            
-            <blockquote>
-              "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." - William Paul Thurston
-            </blockquote>
-            
-            <h2 id="waec-format">Understanding the WAEC Mathematics Format</h2>
-            <p>Before diving into specific strategies, it's essential to understand the structure of the WAEC Mathematics examination:</p>
-            
-            <ul>
-              <li><strong>Paper 1:</strong> Multiple-choice questions (Objective Test) - 50 questions to be answered in 1 hour 30 minutes</li>
-              <li><strong>Paper 2:</strong> Theory/Essay questions - 13 questions, answer any 10 in 2 hours 30 minutes</li>
-            </ul>
-            
-            <p>The total marks for both papers is 100, with Paper 1 accounting for 50 marks and Paper 2 for 50 marks. To achieve a credit pass (C6 and above), you typically need to score at least 50% overall.</p>
-            
-            <p>The CBT version of the examination follows a similar structure but is delivered on a computer. This requires additional skills in navigating the digital interface and using the on-screen calculator or tools provided.</p>
-            
-            <h2 id="key-topics">Key Topics and Their Weightage</h2>
-            <p>Understanding which topics carry the most weight in the examination can help you prioritize your preparation. Based on analysis of past WAEC Mathematics papers, here's the approximate weightage of different topics:</p>
-            
-            <ul>
-              <li><strong>Number and Numeration (20%):</strong> Number bases, modular arithmetic, fractions, decimals, percentages, ratios, rates, approximations, logarithms</li>
-              <li><strong>Algebra (25%):</strong> Algebraic expressions, simple equations and inequalities, quadratic equations, variation, functions, series, matrices, determinants</li>
-              <li><strong>Geometry (20%):</strong> Angles, polygons, circles, constructions, loci, bearings, symmetry, plane geometry</li>
-              <li><strong>Mensuration (10%):</strong> Areas, volumes, length of arcs, surface areas</li>
-              <li><strong>Trigonometry (10%):</strong> Sine, cosine, tangent of angles, angles of elevation and depression, bearings</li>
-              <li><strong>Statistics and Probability (10%):</strong> Data presentation, measures of central tendency, probability</li>
-              <li><strong>Calculus (5%):</strong> Differentiation, integration, application to practical problems</li>
-            </ul>
-            
-            <div class="cta-box">
-              <h3>Practice WAEC Mathematics with BINA</h3>
-              <p>BINA offers comprehensive WAEC Mathematics practice tests with detailed solutions and performance analytics. Improve your problem-solving speed and accuracy today!</p>
-              <a href="index.html#versions" class="btn btn-primary">Try BINA WAEC Practice</a>
-            </div>
-            
-            <h2 id="problem-solving">Problem-Solving Strategies</h2>
-            <p>Developing a systematic approach to problem-solving can significantly improve your efficiency in the examination:</p>
-            
-            <ol>
-              <li><strong>Understand the Problem:</strong> Read the question carefully, identify what is given and what is being asked, and translate the problem into mathematical language.</li>
-              <li><strong>Devise a Plan:</strong> Determine which mathematical concepts and formulas apply to the problem, and outline the steps needed to reach the solution.</li>
-              <li><strong>Execute the Plan:</strong> Carry out the calculations methodically, showing all your working clearly (especially important for Paper 2).</li>
-              <li><strong>Verify the Solution:</strong> Check if your answer makes sense in the context of the problem and verify calculations where possible.</li>
-            </ol>
-            
-            <p>This four-step approach, adapted from mathematician George Pólya's problem-solving framework, provides a structured method for tackling even the most challenging WAEC Mathematics problems.</p>
-            
-            <div class="math-example">
-              <div class="problem">Example Problem: A cylindrical tank with radius 7m and height 10m is filled with water to a depth of 8m. Calculate the volume of water in the tank in cubic meters. (Take π = 22/7)</div>
-              <div class="solution">
-                <div class="solution-step"><strong>Step 1: Understand</strong> - We need to find the volume of water in a partially filled cylindrical tank.</div>
-                <div class="solution-step"><strong>Step 2: Plan</strong> - Use the formula for the volume of a cylinder: V = πr²h</div>
-                <div class="solution-step"><strong>Step 3: Execute</strong> - V = π × 7² × 8 = (22/7) × 49 × 8 = 22 × 7 × 8 = 1,232 m³</div>
-                <div class="solution-step"><strong>Step 4: Verify</strong> - The full tank would be π × 7² × 10 = 1,540 m³, so our answer of 1,232 m³ for a tank filled to 8/10 of its height is reasonable.</div>
-              </div>
-            </div>
-            
-            <h2 id="conclusion">Conclusion</h2>
-            <p>Success in WAEC Mathematics is achievable with the right approach to preparation and examination technique. By understanding the examination format, mastering key topics, developing efficient problem-solving strategies, and practicing regularly, you can significantly improve your performance.</p>
-            
-            <p>Remember that mathematics is a skill that improves with practice. Each problem you solve builds your confidence and capability for the next one. Approach your preparation with patience and persistence, focusing on understanding concepts rather than merely memorizing procedures.</p>
-            
-            <p>With the strategies outlined in this guide and consistent effort, you can transform mathematics from a challenging subject into one of your strengths in the WAEC examination.</p>
-            
-            <div class="blog-post-tags">
-              <span class="blog-post-tag">WAEC Mathematics</span>
-              <span class="blog-post-tag">Problem-Solving</span>
-              <span class="blog-post-tag">Exam Preparation</span>
-              <span class="blog-post-tag">Quantitative Skills</span>
-              <span class="blog-post-tag">Nigerian Education</span>
-            </div>
-            
-       
-            
-            <!-- Related Posts -->
-            <div class="related-posts">
-              <h3>Related Articles</h3>
-              <div class="related-posts-grid">
-                <div class="blog-card">
-                  <div class="blog-img">
-                    <i class="fas fa-laptop-code"></i>
-                  </div>
-                  <div class="blog-content">
-                    <span class="blog-tag">CBT Strategies</span>
-                    <h3 class="blog-title">Mastering Computer-Based Testing: Essential Skills for Nigerian Students</h3>
-                    <a href="#" class="blog-link" data-post-id="cbt-mastery">Read Article <i class="fas fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                
-                <div class="blog-card">
-                  <div class="blog-img">
-                    <i class="fas fa-language"></i>
-                  </div>
-                  <div class="blog-content">
-                    <span class="blog-tag">JAMB</span>
-                    <h3 class="blog-title">English Language: Conquering JAMB's Use of English Section</h3>
-                    <a href="#" class="blog-link" data-post-id="jamb-english">Read Article <i class="fas fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                
-                <div class="blog-card">
-                  <div class="blog-img">
-                    <i class="fas fa-brain"></i>
-                  </div>
-                  <div class="blog-content">
-                    <span class="blog-tag">Study Tips</span>
-                    <h3 class="blog-title">Memory Enhancement Techniques for Nigerian Students</h3>
-                    <a href="#" class="blog-link" data-post-id="memory-techniques">Read Article <i class="fas fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          `,
-        },
-        // Add placeholders for other blog posts
         "jamb-english": {
           title: "English Language: Conquering JAMB's Use of English Section",
           category: "JAMB",
@@ -1166,16 +798,16 @@
           <div class="table-of-contents">
             <h3>Table of Contents</h3>
             <ul>
-              <li>Introduction</li>
-              <li>Understanding the JAMB Use of English Format</li>
-              <li>Vocabulary Enhancement Strategies</li>
-              <li>Mastering English Grammar</li>
-              <li>Reading Comprehension Techniques</li>
-              <li>Verbal Reasoning and Logical Thinking</li>
-              <li>Common Errors to Avoid</li>
-              <li>Structured Practice Approach</li>
-              <li>Exam Day Strategies</li>
-              <li>Conclusion</li>
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#jamb-format">Understanding the JAMB Use of English Format</a></li>
+              <li><a href="#vocabulary">Vocabulary Enhancement Strategies</a></li>
+              <li><a href="#grammar">Mastering English Grammar</a></li>
+              <li><a href="#comprehension">Reading Comprehension Techniques</a></li>
+              <li><a href="#verbal-reasoning">Verbal Reasoning and Logical Thinking</a></li>
+              <li><a href="#common-errors">Common Errors to Avoid</a></li>
+              <li><a href="#practice-approach">Structured Practice Approach</a></li>
+              <li><a href="#exam-day">Exam Day Strategies</a></li>
+              <li><a href="#conclusion">Conclusion</a></li>
             </ul>
           </div>
           
@@ -1516,7 +1148,12 @@
             <span class="blog-post-tag">Nigerian Education</span>
           </div>
           
-       
+          <div class="blog-post-share">
+            <span>Share this article:</span>
+            <a href="#" class="share-link facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="share-link twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="share-link whatsapp"><i class="fab fa-whatsapp"></i></a>
+          </div>
           
           <!-- Related Posts -->
           <div class="related-posts">
@@ -1585,22 +1222,22 @@
           <div class="table-of-contents">
             <h3>Table of Contents</h3>
             <ul>
-              <li>Introduction</li>
-              <li>Understanding the JSCE Basic Science & Technology Format</li>
-              <li>Key Topics and Concepts
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#jsce-format">Understanding the JSCE Basic Science & Technology Format</a></li>
+              <li><a href="#key-topics">Key Topics and Concepts</a>
                 <ul>
-                  <li>Living Things and Basic Ecology</li>
-                  <li>Matter and Materials</li>
-                  <li>Energy and Machines</li>
-                  <li>Earth and Space</li>
-                  <li>Information and Communication Technology</li>
+                  <li><a href="#living-things">Living Things and Basic Ecology</a></li>
+                  <li><a href="#matter">Matter and Materials</a></li>
+                  <li><a href="#energy">Energy and Machines</a></li>
+                  <li><a href="#earth-space">Earth and Space</a></li>
+                  <li><a href="#ict">Information and Communication Technology</a></li>
                 </ul>
               </li>
-              <li>Developing Practical Skills</li>
-              <li>Overcoming Common Challenges</li>
-              <li>Effective Study Strategies</li>
-              <li>Exam Preparation Techniques</li>
-              <li>Conclusion</li>
+              <li><a href="#practical-skills">Developing Practical Skills</a></li>
+              <li><a href="#common-challenges">Overcoming Common Challenges</a></li>
+              <li><a href="#study-strategies">Effective Study Strategies</a></li>
+              <li><a href="#exam-preparation">Exam Preparation Techniques</a></li>
+              <li><a href="#conclusion">Conclusion</a></li>
             </ul>
           </div>
           
@@ -1948,7 +1585,12 @@
             <span class="blog-post-tag">Nigerian Education</span>
           </div>
           
-       
+          <div class="blog-post-share">
+            <span>Share this article:</span>
+            <a href="#" class="share-link facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="share-link twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="share-link whatsapp"><i class="fab fa-whatsapp"></i></a>
+          </div>
           
           <!-- Related Posts -->
           <div class="related-posts">
@@ -2016,17 +1658,17 @@
           <div class="table-of-contents">
             <h3>Table of Contents</h3>
             <ul>
-              <li>Introduction</li>
-              <li>Understanding How Memory Works</li>
-              <li>Spaced Repetition: The Science of Remembering</li>
-              <li>Mnemonic Devices and Memory Palaces</li>
-              <li>Mind Mapping for Visual Learners</li>
-              <li>Association Techniques</li>
-              <li>Physical Factors Affecting Memory</li>
-              <li>Subject-Specific Memory Strategies</li>
-              <li>Improving Recall During Examinations</li>
-              <li>Using Technology to Enhance Memory</li>
-              <li>Conclusion</li>
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#how-memory-works">Understanding How Memory Works</a></li>
+              <li><a href="#spaced-repetition">Spaced Repetition: The Science of Remembering</a></li>
+              <li><a href="#mnemonic-devices">Mnemonic Devices and Memory Palaces</a></li>
+              <li><a href="#mind-mapping">Mind Mapping for Visual Learners</a></li>
+              <li><a href="#association-techniques">Association Techniques</a></li>
+              <li><a href="#physical-factors">Physical Factors Affecting Memory</a></li>
+              <li><a href="#subject-specific">Subject-Specific Memory Strategies</a></li>
+              <li><a href="#exam-recall">Improving Recall During Examinations</a></li>
+              <li><a href="#technology">Using Technology to Enhance Memory</a></li>
+              <li><a href="#conclusion">Conclusion</a></li>
             </ul>
           </div>
           
@@ -2390,7 +2032,12 @@
             <span class="blog-post-tag">Nigerian Education</span>
           </div>
           
-       
+          <div class="blog-post-share">
+            <span>Share this article:</span>
+            <a href="#" class="share-link facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="share-link twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="share-link whatsapp"><i class="fab fa-whatsapp"></i></a>
+          </div>
           
           <!-- Related Posts -->
           <div class="related-posts">
@@ -2459,16 +2106,16 @@
           <div class="table-of-contents">
             <h3>Table of Contents</h3>
             <ul>
-              <li>Introduction</li>
-              <li>Understanding Computer Anxiety</li>
-              <li>Identifying Symptoms and Triggers</li>
-              <li>Building Basic Computer Skills</li>
-              <li>Becoming Familiar with CBT Interfaces</li>
-              <li>Mindset and Psychological Techniques</li>
-              <li>Practical Exercises to Build Confidence</li>
-              <li>Exam Day Strategies</li>
-              <li>Resources for Nigerian Students</li>
-              <li>Conclusion</li>
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#understanding-anxiety">Understanding Computer Anxiety</a></li>
+              <li><a href="#identifying-symptoms">Identifying Symptoms and Triggers</a></li>
+              <li><a href="#basic-skills">Building Basic Computer Skills</a></li>
+              <li><a href="#cbt-familiarity">Becoming Familiar with CBT Interfaces</a></li>
+              <li><a href="#mindset-techniques">Mindset and Psychological Techniques</a></li>
+              <li><a href="#practical-exercises">Practical Exercises to Build Confidence</a></li>
+              <li><a href="#exam-day">Exam Day Strategies</a></li>
+              <li><a href="#resources">Resources for Nigerian Students</a></li>
+              <li><a href="#conclusion">Conclusion</a></li>
             </ul>
           </div>
           
@@ -2617,7 +2264,7 @@
           <div class="cta-box">
             <h3>Practice CBT Skills with BINA</h3>
             <p>BINA offers free CBT simulation exercises designed specifically for students with limited computer experience. Our interface mimics actual examination platforms to build your confidence and familiarity.</p>
-            <a href="https://bina-free.vercel.app" class="btn btn-primary">Try BINA CBT Practice</a>
+            <a href="index.html#versions" class="btn btn-primary">Try BINA CBT Practice</a>
           </div>
           
           <h2 id="cbt-familiarity">Becoming Familiar with CBT Interfaces</h2>
@@ -2932,7 +2579,12 @@
             <span class="blog-post-tag">Nigerian Education</span>
           </div>
           
-       
+          <div class="blog-post-share">
+            <span>Share this article:</span>
+            <a href="#" class="share-link facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="share-link twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="share-link whatsapp"><i class="fab fa-whatsapp"></i></a>
+          </div>
           
           <!-- Related Posts -->
           <div class="related-posts">
@@ -2973,6 +2625,36 @@
             </div>
           </div>
         `,
+        },
+        "cbt-mastery": {
+          title:
+            "Mastering Computer-Based Testing: Essential Skills for Nigerian Students",
+          category: "CBT Strategies",
+          date: "April 8, 2025",
+          topic: "Study Tips",
+          author: "BINA Team",
+          icon: "fa-laptop-code",
+          content: `<p>This content is available in the original blog.html file.</p>`,
+        },
+        "common-entrance": {
+          title:
+            "How to Prepare for Common Entrance Examinations: A 12-Week Study Plan",
+          category: "Common Entrance",
+          date: "April 5, 2025",
+          topic: "Study Tips",
+          author: "BINA Team",
+          icon: "fa-book",
+          content: `<p>This content is available in the original blog.html file.</p>`,
+        },
+        "waec-mathematics": {
+          title:
+            "Mathematics Tips: Solving WAEC Quantitative Problems Efficiently",
+          category: "WAEC",
+          date: "April 2, 2025",
+          topic: "Study Tips",
+          author: "BINA Team",
+          icon: "fa-calculator",
+          content: `<p>This content is available in the original blog.html file.</p>`,
         },
       };
 
@@ -3022,7 +2704,7 @@
         document.title = "Exam Tips & CBT Preparation Guide - BINA Blog";
 
         // Update URL
-        history.pushState({}, "Blog List", "blog.html");
+        history.pushState({}, "Blog List", "blog2.html");
 
         // Scroll to top
         window.scrollTo(0, 0);
