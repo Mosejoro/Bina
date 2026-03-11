@@ -1320,15 +1320,12 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Footer updates */
+/* FOOTER BASE */
 .footer {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  color: #fff;
+  background: #0f172a;
+  color: #ffffff;
   padding: 50px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
 }
 
@@ -1336,14 +1333,12 @@ a:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
-.footer img{
-  width: 6rem;
-}
-/* FOOTER GRID - MOBILE FIRST */
+
+/* FOOTER GRID */
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  gap: 40px;
 }
 
 /* FOOTER SECTIONS */
@@ -1359,6 +1354,15 @@ a:hover {
   margin-top: 10px;
 }
 
+/* LOGO */
+.footer-logo {
+  width: 130px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* LINKS */
 .footer-links {
   list-style: none;
   padding: 0;
@@ -1376,14 +1380,6 @@ a:hover {
 
 .footer-links a:hover {
   color: #38bdf8;
-}
-
-/* LOGO */
-.footer-logo {
-  width: 120px;
-  max-width: 100%;
-  display: block;
-  margin-bottom: 15px;
 }
 
 /* SOCIAL ICONS */
@@ -1414,18 +1410,18 @@ a:hover {
   color: #cbd5e1;
 }
 
-/* TABLETS AND ABOVE */
-@media(min-width: 600px) {
+/* TABLETS */
+@media (min-width: 600px) {
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 30px;
   }
 }
 
 /* DESKTOP */
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   .footer-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
   }
 
@@ -1434,10 +1430,11 @@ a:hover {
   }
 }
 
-/* EXTRA MOBILE STYLING */
-@media(max-width: 480px) {
+/* SMALL MOBILE */
+@media (max-width: 480px) {
   .footer {
     text-align: center;
+    padding: 40px 15px 20px;
   }
 
   .social-links a {
