@@ -1360,6 +1360,7 @@ a:hover {
   max-width: 100%;
   display: block;
   margin-bottom: 15px;
+  margin: 0 auto 15px;
 }
 
 /* LINKS */
