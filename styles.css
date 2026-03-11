@@ -1328,7 +1328,9 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
 }
-
+.footer img{
+  width: 4rem;
+}
 .footer-section {
   margin-bottom: 20px;
 }
