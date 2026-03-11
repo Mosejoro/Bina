@@ -1371,6 +1371,7 @@ a:hover {
 
 .footer-links li {
   margin-bottom: 10px;
+  margin: 0 auto 15px;
 }
 
 .footer-links a {
