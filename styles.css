@@ -1401,6 +1401,9 @@ a:hover {
   transform: translateY(-3px);
   color: #38bdf8;
 }
+.fab{
+  width: 3rem
+}
 
 /* FOOTER BOTTOM */
 .footer-bottom {
