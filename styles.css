@@ -1387,6 +1387,7 @@ a:hover {
 /* SOCIAL ICONS */
 .social-links {
   margin-top: 15px;
+  margin: 0 auto 15px;
 }
 
 .social-links a {
