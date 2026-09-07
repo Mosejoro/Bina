@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BINA Privacy Center</title>
+<meta name="description" content="Privacy policies for BINA PRY, BINA JSS, and BINA SSS — how BINA TIVIT collects, uses, and protects student and guardian information.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#master">
+      <span class="mark">B</span>
+      <span>BINA Privacy Center<small>BINA TIVIT · Educational Technology</small></span>
+    </a>
+    <div class="doc-switcher" id="doc-switcher" role="tablist" aria-label="Choose a privacy policy">
+      <!-- one button per document, rendered by app.js from POLICY_DATA -->
+    </div>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="theme-toggle" title="Toggle light/dark" aria-label="Toggle light and dark theme">☽</button>
+      <button class="icon-btn" id="print-btn" title="Print this policy" aria-label="Print this policy">⎙</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- one .doc-panel per document, rendered by app.js from POLICY_DATA -->
+</main>
+
+<button class="backtotop" id="backtotop" aria-label="Back to top">↑</button>
+
+<footer class="site">
+  <div class="footer-inner">
+    <div>
+      <h4>BINA TIVIT</h4>
+      <p>Email: <a href="mailto:binativit@gmail.com">binativit@gmail.com</a><br>
+      Website: <a href="https://binativit.vercel.app">binativit.vercel.app</a></p>
+    </div>
+    <div>
+      <h4>Policies</h4>
+      <div class="footer-links" id="footer-links">
+        <!-- one link per document, rendered by app.js from POLICY_DATA -->
+      </div>
+    </div>
+    <div>
+      <h4>Questions?</h4>
+      <p>For access, correction, or deletion requests, write to us — we verify every request before making changes.</p>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2026 BINA TIVIT. This page summarizes and presents BINA's privacy policies; the policy text is the authoritative version.</p>
+</footer>
+
+<script src="policy-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
