@@ -1,17 +1,17 @@
 // Download configuration for different versions
 const downloadConfig = {
   commonEntrancePaid: {
-    apkPath: "Pry.apk",
+    apkPath: "BINA JSS - Junior WAEC Preparation_Version 4.xapk",
     paymentRequired: true,
     paymentLink: "https://binapayment.vercel.app",
   },
   jss3: {
-    apkPath: "Jss.apk",
+    apkPath: "BINA JSS - Junior WAEC Preparation_Version 4.xapk",
     paymentRequired: true,
     paymentLink: "https://binapayment.vercel.app",
   },
   ss3: {
-    apkPath: "Sss.apk",
+    apkPath: "BINA JSS - Junior WAEC Preparation_Version 4.xapk",
     paymentRequired: true,
     paymentLink: "https://binapayment.vercel.app",
   },
