@@ -1,17 +1,17 @@
 // Download configuration for different versions
 const downloadConfig = {
   commonEntrancePaid: {
-    apkPath: "PRY.Xapk",
+    apkPath: "p.Xapk",
     paymentRequired: true,
     paymentLink: "https://binapayment.vercel.app",
   },
   jss3: {
-    apkPath: "JSS.Xapk",
+    apkPath: "j.Xapk",
     paymentRequired: true,
     paymentLink: "https://binapayment.vercel.app",
   },
   ss3: {
-    apkPath: "SSS.Xapk",
+    apkPath: "s.Xapk",
     paymentRequired: true,
     paymentLink: "https://binapayment.vercel.app",
   },
