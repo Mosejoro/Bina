@@ -11,7 +11,7 @@ const downloadConfig = {
     paymentLink: "https://binapayment.vercel.app",
   },
   ss3: {
-    apkPath: "Sss.apk",
+    apkPath: "SSS.apk",
     paymentRequired: true,
     paymentLink: "https://binapayment.vercel.app",
   },
